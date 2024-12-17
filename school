@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of Kofer University, a premier institution with over 4,500 students located in Monsey, NY. Explore our academic programs, campus life, and admissions process.">
+    <title>Kofer University - Monsey, NY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Kofer University</h1>
+    <p>Empowering Students. Transforming Futures.</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#academics">Academics</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#campus-life">Campus Life</a>
+    <a href="#articles">Articles</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to Kofer University</h1>
+</section>
+
+<section class="container">
+    <h2 id="about">About Kofer University</h2>
+    <div class="card">
+        <p>Located in the heart of Monsey, NY, Kofer University is a thriving institution with over 4,500 students. We are committed to academic excellence, innovative research, and creating a supportive community for our students to succeed.</p>
+    </div>
+
+    <h2 id="academics">Academics</h2>
+    <div class="card">
+        <p>Our diverse range of academic programs is designed to prepare students for the challenges of the modern world. From undergraduate degrees to specialized graduate programs, Kofer University offers something for everyone.</p>
+    </div>
+
+    <h2 id="admissions">Admissions</h2>
+    <div class="card">
+        <p>Ready to join Kofer University? Our admissions team is here to guide you through the process. Explore our requirements, important dates, and scholarship opportunities.</p>
+    </div>
+
+    <h2 id="campus-life">Campus Life</h2>
+    <div class="card">
+        <p>Life at Kofer University is vibrant and enriching. With a variety of clubs, sports, and cultural events, there is always something happening on campus to make your experience unforgettable.</p>
+    </div>
+
+    <h2 id="articles">Recent Articles</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="images/learning1.jpg" alt="Students in Classroom">
+            <h3>Innovative Research at Kofer University</h3>
+            <p>Learn how our faculty and students are driving innovation across multiple disciplines. "At Kofer, we encourage our students to think outside the box," says Dr. Sarah Lee, Dean of Research. "Our cutting-edge research facilities and interdisciplinary approach allow us to pioneer new technologies and methodologies."</p>
+        </div>
+        <div class="card">
+            <img src="images/learning2.jpg" alt="Group Study Session">
+            <h3>Alumni Spotlight: Success Stories</h3>
+            <p>Discover the incredible achievements of our graduates and their impact on the world. "My time at Kofer University gave me the skills and confidence I needed to succeed," says John Doe, a successful entrepreneur. "The support and guidance from my professors and peers helped me turn my dreams into reality."</p>
+        </div>
+        <div class="card">
+            <img src="images/learning3.jpg" alt="Campus Event">
+            <h3>Sustainability Initiatives</h3>
+            <p>Explore our commitment to sustainability and how we are making a difference. "We're not just teaching about sustainability; we're living it," says Dr. Emma Turner, Director of Sustainability Programs. "From energy-efficient buildings to green research initiatives, Kofer University is leading the way in environmental responsibility."</p>
+        </div>
+    </div>
+
+    <h2 id="awards">Awards & Recognition</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Best Regional University</h3>
+            <p>Recognized as one of the top regional universities by Higher Ed Rankings 2024.</p>
+        </div>
+        <div class="card">
+            <h3>Excellence in Research</h3>
+            <p>Awarded for groundbreaking research in science and technology. "Our research programs are on the cutting edge of discovery," says Dr. Emily Chen, Head of Science. "With investments in state-of-the-art labs and equipment, we are pioneering advancements in fields like AI, robotics, and renewable energy."</p>
+        </div>
+        <div class="card">
+            <h3>Community Engagement Award</h3>
+            <p>Honored for our dedication to serving the local and global community. "At Kofer, we believe in the power of giving back," says Laura Gonzalez, Director of Community Outreach. "Through partnerships with local organizations and international initiatives, we are making a positive impact around the world."</p>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="contact">
+    <h2>Contact Us</h2>
+    <div class="card">
+        <form class="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Kofer University | Monsey, NY</p>
+</footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #0056a8;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    background: #003f74;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    background: url('images/campus.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.card {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+footer {
+    background: #0056a8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+footer p {
+    margin: 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form label {
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #0056a8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #003f74;
+}
